@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bm2stsy1rwngc"]
+
+[node name="Killzone" type="Area2D"]
+collision_mask = 2
+
+[node name="Timer" type="Timer" parent="."]
