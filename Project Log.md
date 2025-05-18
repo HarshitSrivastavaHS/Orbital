@@ -2,6 +2,7 @@
 
 ## 18/05/2025
 - 1 hour 'meet your advisor' discussion 
+- 1 hour discussion
 
 ## 15/05/2025
 - 3 hours spent on Liftoff Video 
