@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c43sshbsg7tyi"
-path="res://.godot/imported/HMMStaffCast.png-88beb5a388c4e0afab76beeba932b1de.ctex"
+uid="uid://06oc8w6qpxrq"
+path="res://.godot/imported/Stop_Running.png-ad320ec07b5afe38e0d5c93065b648a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/HMMStaffCast.png"
-dest_files=["res://.godot/imported/HMMStaffCast.png-88beb5a388c4e0afab76beeba932b1de.ctex"]
+source_file="res://assets/sprites/Stop_Running.png"
+dest_files=["res://.godot/imported/Stop_Running.png-ad320ec07b5afe38e0d5c93065b648a0.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqlnfdcs3aaqn"
-path="res://.godot/imported/HMMWalkBow.png-d9dbffc9e50b8958b52a9fb89314ba78.ctex"
+uid="uid://dvbhykobuwqsc"
+path="res://.godot/imported/Running.png-b09cdbf41c073c9d28dbc2c1a95d8c5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/HMMWalkBow.png"
-dest_files=["res://.godot/imported/HMMWalkBow.png-d9dbffc9e50b8958b52a9fb89314ba78.ctex"]
+source_file="res://assets/sprites/Running.png"
+dest_files=["res://.godot/imported/Running.png-b09cdbf41c073c9d28dbc2c1a95d8c5d.ctex"]
 
 [params]
 

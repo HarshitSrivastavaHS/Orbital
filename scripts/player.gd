@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+var stoprunning := false
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
@@ -26,11 +27,15 @@ func _physics_process(delta: float) -> void:
 		animated_sprite.flip_h = true
 		
 	#play animation
+	
 	if is_on_floor():
-		if direction == 0:
+		if direction == 0 && !stoprunning: 
 			animated_sprite.play("idle")
-		else:
+		elif direction != 0 :
 			animated_sprite.play("run")
+			stoprunning = true
+		else :
+			animated_sprite.play("endrun")
 	else:
 		animated_sprite.play("jump")
 	
@@ -40,3 +45,9 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
+
+func _on_animated_sprite_2d_animation_finished() -> void:
+	if "endrun" == animated_sprite.animation :
+		stoprunning = false
+	
