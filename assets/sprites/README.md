@@ -1,1 +1,0 @@
-# Delete this readme once the assets are added
