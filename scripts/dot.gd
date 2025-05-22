@@ -7,8 +7,9 @@ extends Node2D
 func _on_body_entered(body: Node2D) -> void:
 	timer.start()
 
+func _on_body_exited(body: Node2D) -> void:
+	timer.stop()
 
 func _on_timer_timeout() -> void:
-	player.curr_health -= 10
-	if player.curr_health <= 0:
-		print("you died")
+	player.CurrentHealth -= 2
+	

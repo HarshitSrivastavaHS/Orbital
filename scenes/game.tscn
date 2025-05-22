@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://bo3b2gecuoy8p"]
+[gd_scene load_steps=8 format=3 uid="uid://bo3b2gecuoy8p"]
 
 [ext_resource type="PackedScene" uid="uid://b1s6ctf1e4mtk" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://bm2stsy1rwngc" path="res://scenes/killzone.tscn" id="2_yqjtg"]
 [ext_resource type="PackedScene" uid="uid://dajiau08f6t64" path="res://scenes/dot.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dmrxlmi068l8p" path="res://scenes/coin.tscn" id="4_lbhrr"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_uwrxv"]
 distance = -1.0
@@ -10,6 +11,7 @@ distance = -1.0
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_lnu2h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lbhrr"]
+size = Vector2(43, 40)
 
 [node name="game" type="Node2D"]
 
@@ -23,9 +25,9 @@ limit_bottom = 150
 limit_smoothed = true
 position_smoothing_enabled = true
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="Testfloor" type="StaticBody2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Testfloor"]
 shape = SubResource("WorldBoundaryShape2D_uwrxv")
 
 [node name="Killzone" parent="." instance=ExtResource("2_yqjtg")]
@@ -39,5 +41,8 @@ shape = SubResource("WorldBoundaryShape2D_lnu2h")
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoT"]
-position = Vector2(-24, -10)
+position = Vector2(-35.5, -20)
 shape = SubResource("RectangleShape2D_lbhrr")
+
+[node name="Coin" parent="." instance=ExtResource("4_lbhrr")]
+position = Vector2(50, -8)
