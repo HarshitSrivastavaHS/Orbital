@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6b1543qlig2y"
-path="res://.godot/imported/Walking.png-28125677c40177b1f6327dfc23db4bb1.ctex"
+uid="uid://bxqwdx1rdxa3k"
+path="res://.godot/imported/Ice_Charge.png-a0af5fcfe853a0ec5e00ec57c993d73c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Walking.png"
-dest_files=["res://.godot/imported/Walking.png-28125677c40177b1f6327dfc23db4bb1.ctex"]
+source_file="res://assets/sprites/Player/Ice_Charge.png"
+dest_files=["res://.godot/imported/Ice_Charge.png-a0af5fcfe853a0ec5e00ec57c993d73c.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceafrduxesgk3"
-path="res://.godot/imported/Jumping.png-3c78bb037aacebc41e34ac3f11b5ce19.ctex"
+uid="uid://co7rvkh4lnu7"
+path="res://.godot/imported/nyp student-Sheet.png-29623fb2c189dced1603b7a7ff5933fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Jumping.png"
-dest_files=["res://.godot/imported/Jumping.png-3c78bb037aacebc41e34ac3f11b5ce19.ctex"]
+source_file="res://assets/sprites/Player/nyp student-Sheet.png"
+dest_files=["res://.godot/imported/nyp student-Sheet.png-29623fb2c189dced1603b7a7ff5933fa.ctex"]
 
 [params]
 

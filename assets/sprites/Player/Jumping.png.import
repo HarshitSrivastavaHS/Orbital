@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkhiimynnijmq"
-path="res://.godot/imported/Ise_Strice.png-1381a9a63f806e1177687d101a1e4424.ctex"
+uid="uid://ceafrduxesgk3"
+path="res://.godot/imported/Jumping.png-f4be676fd2d5260004f93db1afb961b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Ise_Strice.png"
-dest_files=["res://.godot/imported/Ise_Strice.png-1381a9a63f806e1177687d101a1e4424.ctex"]
+source_file="res://assets/sprites/Player/Jumping.png"
+dest_files=["res://.godot/imported/Jumping.png-f4be676fd2d5260004f93db1afb961b1.ctex"]
 
 [params]
 
