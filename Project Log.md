@@ -20,7 +20,7 @@
 - 2h changed character sprite, adding animations WXY
 - 1h debugging WXY
 
-## 28/05/2025
+## 19/05/2025
 - 1h creating a character WXY
 - 1h debugging WXY
 
